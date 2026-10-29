@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico N°3 - File</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <p>Seleccionar Imagen:</p>
+
+            <input type="file" id="inputFile" accept="image/*" style="display: none;">
+            <!-- Botón visible -->
+            <button id="btnSubir">Subir Archivo</button>
+        </div>
+
+
+        <div class="card" id="resultado" style="display: none;">
+            <p id="infoArchivo"></p>
+            <img id="vistaPrevia" src="" alt="Vista previa de la imagen seleccionada">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
